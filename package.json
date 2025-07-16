@@ -1,0 +1,33 @@
+{
+  "name": "create-kodex-app",
+  "version": "1.0.0",
+  "description": "create kodex app",
+  "keywords": [
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "chongiou",
+  "type": "module",
+  "bin": {
+    "create-kodex-app": "dist/bin/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chongiou/create-kodex-app.git"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^24.0.13",
+    "@types/prompts": "^2.4.9",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "fs-extra": "^11.3.0",
+    "prompts": "^2.4.2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "{{package-name}}",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "vite build",
+    "push": "node --import tsx scripts/push.ts dist/{{package-name}}.zjs to adb:///sdcard/自动精灵",
+    "test:build": "vite build --mode test",
+    "test:watch": "nodemon",
+    "test:push": "node --import tsx scripts/push.ts test/{{package-name}}.zjs to adb:///sdcard/自动精灵"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "@vitejs/plugin-react": "^4.6.0",
+    "axios": "^1.10.0",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3",
+    "vite": "^6.3.3",
+    "vite-mjs-to-zjs": "^1.0.3"
+  },
+  "dependencies": {
+    "@zdjl/kodex": "^1.0.3"
+  }
+}
