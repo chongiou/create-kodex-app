@@ -14,7 +14,9 @@
   "files": [
     "dist"
   ],
-  "scripts": {},
+  "scripts": {
+    "build": "vite build"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/chongiou/create-kodex-app.git"
